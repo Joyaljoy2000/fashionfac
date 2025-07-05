@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: rgb(222, 240, 255);
+}
+.first-sec h5 {
+  margin-left: 50px;
+  margin-right: 300px;
+  color: rgb(21, 182, 252);
+  font-weight: 800;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+.second-sec ul li {
+  margin-top: 13px;
+}
+
+.second-sec li {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 100px;
+  text-decoration: none;
+}
+.second-sec li a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-item {
+  margin-right: 100px;
+}
+.shop-btn {
+  border: none;
+  font-size: 18px;
+  padding: 8px 13px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+#sum {
+  margin-top: 140px;
+}
+.one {
+  margin-top: -63px;
+  background-color: rgb(244, 248, 253);
+  padding: 80px;
+
+}
+.card:hover {
+  box-shadow: 0 0 5px grey, 0 0 10px grey, 0 0 15px grey;
+  border: 2px solid rgb(131, 218, 255);
+  cursor: pointer;
+  color: rgb(131, 218, 255);
+}
+.ic i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+.card-text {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 17px;
+  color: rgb(54, 54, 54);
+  text-align: center;
+
+  letter-spacing: 1px;
+}
+#title{
+  font-size: 15px;
+
+}
+#hov:hover{
+  color: blue;
+}
+
+.copy{
+font-size: 13px;
+margin-bottom: 0px;
+color: rgb(150, 148, 148);
+}
+
+.btnlast{
+
+border: none;
+
+}
+
+#review:hover{
+  color: blue;
+}
+
+/*cards*/
+
+#collection{
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+}
+
+#collection:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(42, 70, 84, 0.942);
+  border: 2px solid rgb(114, 114, 114);
+  color: rgb(0, 0, 0);
+}
+
+#Offers:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(55, 34, 34, 0.942);
+  border: 2px solid rgb(170, 170, 170);
+  color: rgb(0, 0, 0);
+
+}
+
+#rev:hover{
+
+    transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(34, 55, 55, 0.942);
+  border: 2px solid rgb(170, 170, 170);
+  color: rgb(0, 0, 0);
+}
+#follow:hover{
+  cursor: pointer;
+  color: white;
+    text-shadow: 0 0 10px blue,
+    0 0 20px blue,
+    0 0 30px blue;
+
+}
+
+.last:hover{
+  color: rgb(48, 48, 196);
+  cursor: pointer;
+}
+footer{
+  margin-right: 0px;
+}
+
+
+
+
+
+/*corosel*/
+
